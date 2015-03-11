@@ -1,0 +1,8 @@
+for dir in /path/to/A/*/; do
+    mv "$dir"/[1]/* $dir && rmdir "$dir"/[1]
+done
+
+
+
+
+30 07 26 03 02 /usr/bin/sandbox.dev
