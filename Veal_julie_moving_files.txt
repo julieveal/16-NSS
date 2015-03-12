@@ -1,0 +1,11 @@
+#rename file
+mv newfile.txt rename_file.txt
+
+#rename and move file
+mv newfile.txt testdir/rename_file.txt
+
+#make file
+mkdir testdir/test1
+
+#moves a file into a different directory
+mv newfile.txt testdir/newfile.txt
